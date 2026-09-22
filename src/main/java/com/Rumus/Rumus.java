@@ -20,12 +20,4 @@ public class Rumus {
         int kuadrat = panjang*lebar;
         return kuadrat;
     }
-    public static void main(String[] args) {
-        int panjang = 10;
-        int lebar = 5;
-        System.out.println("Luas Persegi Panjang: " + luasPersegiPanjang(panjang, lebar));
-        System.out.println("Keliling Persegi Panjang: " + kelilingPersegiPanjang(panjang, lebar));
-        System.out.println("Kuadrat Persegi Panjang: " + Kuadrat(panjang, lebar));
-        System.out.println("Apakah Persegi? " + validatePersegi(panjang, lebar));
-    }
 }
