@@ -20,6 +20,9 @@ public class RumusController {
             model.addAttribute("panjang", panjang);
             model.addAttribute("lebar", lebar);
             model.addAttribute("isValid", isValid);
+            model.addAttribute("luas", Rumus.luasPersegiPanjang(panjang, lebar));
+            model.addAttribute("keliling", Rumus.kelilingPersegiPanjang(panjang, lebar));
+            model.addAttribute("kuadrat", Rumus.Kuadrat(panjang, lebar));
         }
 
         return "Rumus";

@@ -39,6 +39,9 @@
             <p>Panjang: <strong>${panjang}</strong></p>
             <p>Lebar: <strong>${lebar}</strong></p>
             <p>Apakah Persegi Valid? <strong>${isValid}</strong></p>
+            <p>Luas Persegi Panjang: <strong>${luas}</strong></p>
+            <p>Keliling Persegi Panjang: <strong>${keliling}</strong></p>
+            <p>Kuadrat Persegi Panjang: <strong>${kuadrat}</strong></p>
         </div>
     <% } %>
 
