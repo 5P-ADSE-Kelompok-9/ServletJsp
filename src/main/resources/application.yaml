@@ -4,4 +4,4 @@ spring:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
 server:
-  port: 8080
+  port: ${PORT:8080}
